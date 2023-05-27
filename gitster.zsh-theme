@@ -21,5 +21,5 @@ if (( ${+functions[git-info]} )); then
   autoload -Uz add-zsh-hook && add-zsh-hook precmd git-info
 fi
 
-PS1='%(?:%F{green}:%F{red})➜ %F{white}$(prompt-pwd)${(e)git_info[prompt]}%f '
+PS1='%(?:%F{green}:%F{red})➜  %F{white}$(prompt-pwd)${(e)git_info[prompt]}%f '
 unset RPS1
